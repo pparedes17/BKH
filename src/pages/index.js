@@ -11,12 +11,6 @@ export default function Home() {
       <h1>Welcome to BridgeKey Homes</h1>
       <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>Your Home. Your Terms. Our Solutions.</p>
 
-{/*    
-      <footer style={{ position: 'absolute', bottom: '2rem', width: '100%', textAlign: 'center' }}>
-      <p style={{ fontStyle: 'italic' }}>Under construction</p>
-        </footer>
-*/}
-
 <div style={{
   display: 'flex',
   flexDirection: 'column',
@@ -40,6 +34,13 @@ export default function Home() {
     `}
   </style>
 </div>
+
+{/*    
+      <footer style={{ position: 'absolute', bottom: '2rem', width: '100%', textAlign: 'center' }}>
+      <p style={{ fontStyle: 'italic' }}>Under construction</p>
+        </footer>
+*/}
+
 
     </div>
   );

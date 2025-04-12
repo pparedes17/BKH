@@ -1,20 +1,18 @@
 export default function Home() {
   return (
-    <div style={{ position: 'relative', minHeight: '100vh', margin: 0 }}>
+    <div style={{ 
+      position: 'relative', 
+      minHeight: '100vh', 
+      margin: 0, 
+      backgroundColor: '#0D1B2A', 
+      color: 'white',
+      overflow: 'hidden' 
+    }}>
       {/* Main Page Content */}
       <div
         style={{
-          backgroundColor: '#0D1B2A',
-          color: 'white',
-          height: '100vh',
-          padding: '2rem',
           textAlign: 'center',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start', // push content toward top
-          alignItems: 'center',
-          paddingTop: '6rem', // adds space at the top
-          zIndex: 1
+          padding: '4rem 2rem 6rem', // top padding to lift, bottom for space above footer
         }}
       >
         <img
@@ -23,7 +21,7 @@ export default function Home() {
           style={{
             width: '250px',
             filter: 'drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6))',
-            marginBottom: '2rem'
+            marginBottom: '2rem',
           }}
         />
         <h1>Welcome to BridgeKey Homes</h1>
@@ -32,23 +30,26 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Under Construction Banner */}
+      {/* Under Construction Banner — always fixed to bottom */}
       <div
         style={{
-          position: 'absolute',
-          bottom: '2rem',
+          position: 'fixed',
+          bottom: 0,
+          left: 0,
           width: '100%',
+          backgroundColor: '#0D1B2A',
           textAlign: 'center',
-          color: '#fff',
-          fontSize: '2rem',
+          padding: '1rem 0',
+          fontSize: '1.75rem',
           fontWeight: 'bold',
-          animation: 'pulse 2s infinite'
+          animation: 'pulse 2s infinite',
+          zIndex: 1000,
         }}
       >
         🚧 Under Construction 🚧
       </div>
 
-      {/* Animation Keyframes */}
+      {/* Pulse animation */}
       <style jsx>{`
         @keyframes pulse {
           0% {

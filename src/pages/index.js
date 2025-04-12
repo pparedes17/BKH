@@ -20,7 +20,7 @@ export default function Home() {
           alt="BridgeKey Homes Logo"
           style={{
             width: '250px',
-            filter: 'drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6))',
+            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6))',
             marginBottom: '1.5rem',
           }}
         />

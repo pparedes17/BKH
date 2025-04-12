@@ -4,7 +4,7 @@ export default function Home() {
       position: 'relative', 
       minHeight: '100vh', 
       margin: 0, 
-      backgroundColor: '#0D1B2A', 
+      backgroundColor: '#1B365D', // '#0D1B2A', 
       color: 'white',
       overflow: 'hidden' 
     }}>
@@ -37,7 +37,7 @@ export default function Home() {
           bottom: 0,
           left: 0,
           width: '100%',
-          backgroundColor: '#0D1B2A',
+          //backgroundColor: '#0D1B2A',
           textAlign: 'center',
           padding: '1rem 0',
           fontSize: '1.75rem',

@@ -11,6 +11,8 @@ export default function Home() {
       <h1>Welcome to BridgeKey Homes</h1>
       <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>Your Home. Your Terms. Our Solutions.</p>
 
+    </div>
+
 <div style={{
   display: 'flex',
   flexDirection: 'column',
@@ -42,6 +44,5 @@ export default function Home() {
 */}
 
 
-    </div>
   );
 }

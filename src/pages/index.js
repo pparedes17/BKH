@@ -1,28 +1,30 @@
 export default function Home() {
   return (
-    <div style={{
-      backgroundColor: '#0D1B2A', // deep navy blue for trust
-      color: 'white',
-      minHeight: '100vh',
-      padding: '2rem',
-      textAlign: 'center',
-      position: 'relative'
-    }}>
-      {/* Logo with drop shadow for relief */}
-      <img 
-        src="/logo.png" 
-        alt="BridgeKey Homes Logo" 
-        style={{ 
-          width: '250px', // lowercase "width"
-          filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.6))' 
-        }} 
-      />
+    <>
+      {/* Main Content */}
+      <div style={{
+        backgroundColor: '#0D1B2A',
+        color: 'white',
+        minHeight: '100vh',
+        padding: '2rem',
+        textAlign: 'center',
+        position: 'relative'
+      }}>
+        <img 
+          src="/logo.png" 
+          alt="BridgeKey Homes Logo" 
+          style={{ 
+            width: '250px',
+            filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.6))' 
+          }} 
+        />
 
-      <h1>Welcome to BridgeKey Homes</h1>
+        <h1>Welcome to BridgeKey Homes</h1>
 
-      <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>
-        Your Home. Your Terms. Our Solutionsss.
-      </p>
+        <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>
+          Your Home. Your Terms. Our Solutions.
+        </p>
+      </div>
 
       {/* Under Construction Overlay */}
       <div style={{
@@ -40,7 +42,8 @@ export default function Home() {
         fontSize: '2rem',
         fontWeight: 'bold',
         zIndex: 9999,
-        animation: 'pulse 2s infinite'
+        animation: 'pulse 2s infinite',
+        pointerEvents: 'none'
       }}>
         🚧 Under Construction 🚧
 
@@ -54,6 +57,6 @@ export default function Home() {
           `}
         </style>
       </div>
-    </div>
+    </>
   );
 }

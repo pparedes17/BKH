@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div style={{
-      backgroundColor: '#1B263B', // '#1B263B', '#003366', '#0D1B2A',
+      backgroundColor: '#0D1B2A', // '#1B263B', '#003366', '#0D1B2A',
       color: 'white',
       minHeight: '100vh',
       padding: '2rem',
@@ -36,12 +36,6 @@ export default function Home() {
     `}
   </style>
 </div>
-
-{/*    
-      <footer style={{ position: 'absolute', bottom: '2rem', width: '100%', textAlign: 'center' }}>
-      <p style={{ fontStyle: 'italic' }}>Under construction</p>
-        </footer>
-*/}
 
 
   );

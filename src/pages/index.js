@@ -12,7 +12,7 @@ export default function Home() {
       <div
         style={{
           textAlign: 'center',
-          padding: '4rem 2rem 6rem', // top padding to lift, bottom for space above footer
+          padding: '2rem 1rem 6rem', // less top padding = higher content
         }}
       >
         <img
@@ -21,16 +21,16 @@ export default function Home() {
           style={{
             width: '250px',
             filter: 'drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6))',
-            marginBottom: '2rem',
+            marginBottom: '1.5rem',
           }}
         />
-        <h1>Welcome to BridgeKey Homes</h1>
-        <p style={{ fontSize: '1.5rem' }}>
+        <h1 style={{ marginBottom: '0.5rem' }}>Welcome to BridgeKey Homes</h1>
+        <p style={{ fontSize: '1.5rem', margin: 0 }}>
           Your Home. Your Terms. Our Solutions.
         </p>
       </div>
 
-      {/* Under Construction Banner — always fixed to bottom */}
+      {/* Under Construction Banner */}
       <div
         style={{
           position: 'fixed',

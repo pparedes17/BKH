@@ -4,7 +4,7 @@ export default function Home() {
       position: 'relative', 
       minHeight: '100vh', 
       margin: 0, 
-      backgroundColor: '#1B365D', // '#0D1B2A', 
+      backgroundColor: '#0F4D92', // '#0D1B2A', '#1B365D',
       color: 'white',
       overflow: 'hidden' 
     }}>
@@ -20,7 +20,7 @@ export default function Home() {
           alt="BridgeKey Homes Logo"
           style={{
             width: '250px',
-            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6))',
+            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 6))',
             marginBottom: '1.5rem',
           }}
         />

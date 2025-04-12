@@ -13,30 +13,35 @@ export default function Home() {
 
     </div>
 
+
 <div style={{
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  width: '100%',
+  height: '100%',
+  backgroundColor: '#003366', // or your chosen background
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '100vh',
+  color: 'white',
   fontSize: '2rem',
   fontWeight: 'bold',
-  color: 'white',
-  textAlign: 'center',
-  animation: 'pulse 2s infinite',
+  zIndex: 9999,
+  animation: 'pulse 2s infinite'
 }}>
   🚧 Under Construction 🚧
   <style>
     {`
       @keyframes pulse {
         0% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.05); opacity: 0.8; }
+        50% { transform: scale(1.05); opacity: 0.85; }
         100% { transform: scale(1); opacity: 1; }
       }
     `}
   </style>
 </div>
-
 
   );
 }

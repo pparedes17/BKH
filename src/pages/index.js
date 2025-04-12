@@ -4,7 +4,7 @@ export default function Home() {
       position: 'relative', 
       minHeight: '100vh', 
       margin: 0, 
-      backgroundColor: '#233142', // W->'#0D1B2A', W->'#1B263B', '#1B365D', '#0B0B45', '#003153'
+      backgroundColor: '#2C3E50', // W->'#0D1B2A', W->'#1B263B', '#1B365D', '#0B0B45', '#003153'
       color: 'white',
       overflow: 'hidden' 
     }}>

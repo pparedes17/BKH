@@ -11,8 +11,9 @@ export default function Home() {
           textAlign: 'center',
           display: 'flex',
           flexDirection: 'column',
-          justifyContent: 'center',
+          justifyContent: 'flex-start', // push content toward top
           alignItems: 'center',
+          paddingTop: '6rem', // adds space at the top
           zIndex: 1
         }}
       >

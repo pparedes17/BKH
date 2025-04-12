@@ -7,12 +7,9 @@ export default function Home() {
       padding: '2rem',
       textAlign: 'center'
     }}>
-      <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ maxWidth: '200px', marginBottom: '1rem' }} />
+      <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ Width: '250px', filter: 'drop-shadow(3px 3px 6px rgba(0,0,0,0,6')) }} />
       <h1>Welcome to BridgeKey Homes</h1>
       <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>Your Home. Your Terms. Our Solutions.</p>
-
-    </div>
-
 
 <div style={{
   position: 'fixed',
@@ -41,6 +38,7 @@ export default function Home() {
       }
     `}
   </style>
+</div>
 </div>
 
   );

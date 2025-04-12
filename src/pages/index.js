@@ -1,4 +1,22 @@
+import { useEffect } from 'react';
+
 export default function Home() {
+  // Inject the keyframe animation once when the component mounts
+  useEffect(() => {
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes pulseOnlyOverlay {
+        0% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.85; }
+        100% { transform: scale(1); opacity: 1; }
+      }
+    `;
+    document.head.appendChild(style);
+    return () => {
+      document.head.removeChild(style);
+    };
+  }, []);
+
   return (
     <>
       {/* Main Content */}
@@ -7,8 +25,7 @@ export default function Home() {
         color: 'white',
         minHeight: '100vh',
         padding: '2rem',
-        textAlign: 'center',
-        position: 'relative'
+        textAlign: 'center'
       }}>
         <img 
           src="/logo.png" 
@@ -22,7 +39,7 @@ export default function Home() {
         <h1>Welcome to BridgeKey Homes</h1>
 
         <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>
-          Your Home. Your Terms. Our Solutions.
+          Your Home. Your Terms. Our Solutionsss.
         </p>
       </div>
 
@@ -42,20 +59,10 @@ export default function Home() {
         fontSize: '2rem',
         fontWeight: 'bold',
         zIndex: 9999,
-        animation: 'pulse 2s infinite',
+        animation: 'pulseOnlyOverlay 2s infinite',
         pointerEvents: 'none'
       }}>
         🚧 Under Construction 🚧
-
-        <style>
-          {`
-            @keyframes pulse {
-              0% { transform: scale(1); opacity: 1; }
-              50% { transform: scale(1.05); opacity: 0.85; }
-              100% { transform: scale(1); opacity: 1; }
-            }
-          `}
-        </style>
       </div>
     </>
   );

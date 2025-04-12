@@ -1,33 +1,18 @@
-import { useEffect } from 'react';
-
 export default function Home() {
-  // Inject animation only once
-  useEffect(() => {
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes pulseOnlyOverlay {
-        0% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.05); opacity: 0.85; }
-        100% { transform: scale(1); opacity: 1; }
-      }
-    `;
-    document.head.appendChild(style);
-    return () => {
-      document.head.removeChild(style);
-    };
-  }, []);
-
   return (
-    <>
-      {/* Main Content */}
+    <div style={{ position: 'relative', minHeight: '100vh', margin: 0 }}>
+      {/* Main Page Content */}
       <div
         style={{
           backgroundColor: '#0D1B2A',
           color: 'white',
-          minHeight: '100vh',
+          height: '100vh',
           padding: '2rem',
           textAlign: 'center',
-          position: 'relative',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
           zIndex: 1
         }}
       >
@@ -36,39 +21,49 @@ export default function Home() {
           alt="BridgeKey Homes Logo"
           style={{
             width: '250px',
-            filter: 'drop-shadow(5px 5px 10px rgba(0,0,0,0.6))',
+            filter: 'drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.6))',
             marginBottom: '2rem'
           }}
         />
         <h1>Welcome to BridgeKey Homes</h1>
-        <p style={{ fontSize: '1.2rem', marginBottom: '3rem' }}>
+        <p style={{ fontSize: '1.5rem' }}>
           Your Home. Your Terms. Our Solutions.
         </p>
       </div>
 
-      {/* Under Construction Overlay */}
+      {/* Under Construction Banner */}
       <div
         style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
+          position: 'absolute',
+          bottom: '2rem',
           width: '100%',
-          height: '100%',
-          backgroundColor: '#0D1B2A',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-          color: 'white',
+          textAlign: 'center',
+          color: '#fff',
           fontSize: '2rem',
           fontWeight: 'bold',
-          zIndex: 9999,
-          animation: 'pulseOnlyOverlay 2s infinite',
-          pointerEvents: 'none'
+          animation: 'pulse 2s infinite'
         }}
       >
         🚧 Under Construction 🚧
       </div>
-    </>
+
+      {/* Animation Keyframes */}
+      <style jsx>{`
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.05);
+            opacity: 0.85;
+          }
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+      `}</style>
+    </div>
   );
 }

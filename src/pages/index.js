@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div style={{
-      backgroundColor: 'cadetblue', // '#003366',
+      backgroundColor: '#0D1B2A', // '#003366',
       color: 'white',
       minHeight: '100vh',
       padding: '2rem',

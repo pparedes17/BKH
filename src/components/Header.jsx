@@ -29,11 +29,17 @@ export default function Header() {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        padding: '1rem 2rem',
-        borderBottom: '1px solid #ccc'
-      }}>
+        padding: '0 2rem',
+        height: '100px', 
+        overflow: 'hidden'
+}}>
+
         {/* Logo */}
-        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '140px' }} />
+        <img
+           src="/logo.png"
+           alt="BridgeKey Homes Logo"
+           style={{ maxHeight: '80px', height: '100%', width: 'auto' }}
+        />
 
         {/* Navigation Menu */}
         <nav>

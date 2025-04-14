@@ -16,7 +16,7 @@ export default function Header() {
   alignItems: 'center'
 }}>
   <div style={{ flex: 1, textAlign: 'center' }}>
-    <strong>Beyond Traditional Solutions</strong>
+    <strong>BridgeKey Homes: Beyond Traditional Solutions</strong>
   </div>
   <div>
     📞 <strong>602.582.8621</strong>
@@ -33,7 +33,7 @@ export default function Header() {
         borderBottom: '1px solid #ccc'
       }}>
         {/* Logo */}
-        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ width: '2200px', height: '100px' }} />
+        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ width: '220px', height: '100px' }} />
 
         {/* Navigation Menu */}
         <nav>

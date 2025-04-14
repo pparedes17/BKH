@@ -6,8 +6,8 @@ export default function Header() {
     <header>
       {/* Top bar with phone */}
       <div style={{
-        backgroundColor: '#0D1B2A',
-        color: 'white',
+        backgroundColor: '#ffffff',
+        color: '#0D1B2A',
         fontSize: '0.9rem',
         padding: '0.4rem 1rem',
         textAlign: 'right'
@@ -17,7 +17,7 @@ export default function Header() {
 
       {/* Main nav bar */}
       <div style={{
-        backgroundColor: '#ffffff',
+        backgroundColor: '#0D1B2A',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',

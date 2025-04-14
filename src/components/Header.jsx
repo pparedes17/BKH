@@ -33,7 +33,7 @@ export default function Header() {
         borderBottom: '1px solid #ccc'
       }}>
         {/* Logo */}
-        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '200px' }} />
+        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '140px' }} />
 
         {/* Navigation Menu */}
         <nav>

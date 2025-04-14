@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
 
-      {/* HERO SECTION */}
+      {/* HERO SECTION HERE */}
       <section style={{
         backgroundColor: '#0D1B2A',
         color: 'white',

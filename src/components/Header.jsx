@@ -6,13 +6,13 @@ export default function Header() {
     <header>
       {/* Top bar with phone */}
       <div style={{
-        backgroundColor: '#1B263B', // #AAB4C2
-        color: 'white',
+        backgroundColor: '#AAB4C2', // #AAB4C2   #1B263B
+        color: '#0D1B2A',
         fontSize: '0.9rem',
         padding: '0.4rem 1rem',
         textAlign: 'right'
       }}>
-        Call us today: <strong>602.582.8621</strong>
+        📞 <strong>602.582.8621</strong>
       </div>
 
       {/* Main nav bar */}

@@ -12,7 +12,7 @@ export default function Header() {
         padding: '0.4rem 1rem',
         textAlign: 'right'
       }}>
-       Beyond Traditional Solutions            📞<strong>602.582.8621</strong>
+       <strong> "Beyond Traditional Solutions            " </strong> 📞<strong>602.582.8621</strong>
       </div>
 
       {/* Main nav bar */}

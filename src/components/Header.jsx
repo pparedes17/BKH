@@ -12,8 +12,8 @@ export default function Header() {
         padding: '0.4rem 1rem',
         textAlign: 'right'
       }}>
-        <FiPhone />
-        <span><strong>602.582.8621</strong></span>        
+
+📞  <span><strong>602.582.8621</strong></span>        
       </div>
 
       {/* Main nav bar */}

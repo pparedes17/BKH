@@ -18,6 +18,10 @@ export default function Home() {
         <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
           Your Home. Your Terms. Our Solutions.
         </p>
+        <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
+          *** Site Under Redesign ***
+        </p>
+
         <button style={{
           backgroundColor: '#E63946',
           border: 'none',

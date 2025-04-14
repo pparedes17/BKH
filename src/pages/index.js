@@ -10,14 +10,21 @@ export default function Home() {
       <section style={{
         backgroundColor: '#0D1B2A',
         color: 'white',
-        padding: '5rem 2rem',
+        padding: '4rem 2rem 2rem',
         textAlign: 'center'
       }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>
-          Creative Real Estate Solutions That Work
-        </h1>
-        <p style={{ fontSize: '1.3rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
-          We help homeowners sell their homes with flexible, win-win options—fast and hassle-free.
+        <img
+          src="/logo.png"
+          alt="BridgeKey Homes Logo"
+          style={{
+            width: '250px',
+            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6))',
+            marginBottom: '1.5rem',
+          }}
+        />
+        <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Welcome to BridgeKey Homes</h1>
+        <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
+          Your Home. Your Terms. Our Solutions.
         </p>
         <button style={{
           backgroundColor: '#E63946',
@@ -31,42 +38,6 @@ export default function Home() {
           Sell Your Home Now
         </button>
       </section>
-    </>
-  );
-}
-
-
-export default function Home() {
-  return (
-    <div style={{ 
-      position: 'relative', 
-      minHeight: '100vh', 
-      margin: 0, 
-      backgroundColor: '#0D1B2A', // W->'#0D1B2A', W->'#1B263B', '#1B365D', '#0B0B45', '#003153'
-      color: 'white',
-      overflow: 'hidden' 
-    }}>
-      {/* Main Page Content */}
-      <div
-        style={{
-          textAlign: 'center',
-          padding: '2rem 1rem 6rem', // less top padding = higher content
-        }}
-      >
-        <img
-          src="/logo.png"
-          alt="BridgeKey Homes Logo"
-          style={{
-            width: '250px',
-            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6))',
-            marginBottom: '1.5rem',
-          }}
-        />
-        <h1 style={{ marginBottom: '0.5rem' }}>Welcome to BridgeKey Homes</h1>
-        <p style={{ fontSize: '1.5rem', margin: 0 }}>
-          Your Home. Your Terms. Our Solutions.
-        </p>
-      </div>
 
       {/* Under Construction Banner */}
       <div
@@ -75,13 +46,13 @@ export default function Home() {
           bottom: 0,
           left: 0,
           width: '100%',
-          //backgroundColor: '#0D1B2A',
           textAlign: 'center',
           padding: '1rem 0',
-          fontSize: '1.75rem',
+          fontSize: '1.5rem',
           fontWeight: 'bold',
           animation: 'pulse 2s infinite',
           zIndex: 1000,
+          color: '#ffffff'
         }}
       >
         🚧 Under Construction 🚧
@@ -104,6 +75,6 @@ export default function Home() {
           }
         }
       `}</style>
-    </div>
+    </>
   );
 }

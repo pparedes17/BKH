@@ -13,15 +13,7 @@ export default function Home() {
         padding: '4rem 2rem 2rem',
         textAlign: 'center'
       }}>
-        <img
-          src="/logo.png"
-          alt="BridgeKey Homes Logo"
-          style={{
-            width: '250px',
-            filter: 'drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.6))',
-            marginBottom: '1.5rem',
-          }}
-        />
+
         <h1 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Welcome to BridgeKey Homes</h1>
         <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
           Your Home. Your Terms. Our Solutions.

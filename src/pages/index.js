@@ -18,7 +18,7 @@ export default function Home() {
         <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
           Your Home. Your Terms. Our Solutions.
         </p>
-        <p style={{ fontSize: '1.3rem', marginBottom: '2rem' }}>
+        <p style={{ fontSize: '1.3rem', marginBottom: '2rem', color: 'yellow' }}>
           *** Site Under Redesign ***
         </p>
 

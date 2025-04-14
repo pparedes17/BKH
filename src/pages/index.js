@@ -35,42 +35,6 @@ export default function Home() {
         </button>
       </section>
 
-      {/* Under Construction Banner */}
-      <div
-        style={{
-          position: 'fixed',
-          bottom: 0,
-          left: 0,
-          width: '100%',
-          textAlign: 'center',
-          padding: '1rem 0',
-          fontSize: '1.5rem',
-          fontWeight: 'bold',
-          animation: 'pulse 2s infinite',
-          zIndex: 1000,
-          color: '#ffffff'
-        }}
-      >
-        🚧 Under Construction 🚧
-      </div>
-
-      {/* Pulse animation */}
-      <style jsx>{`
-        @keyframes pulse {
-          0% {
-            transform: scale(1);
-            opacity: 1;
-          }
-          50% {
-            transform: scale(1.05);
-            opacity: 0.85;
-          }
-          100% {
-            transform: scale(1);
-            opacity: 1;
-          }
-        }
-      `}</style>
     </>
   );
 }

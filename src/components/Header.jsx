@@ -38,7 +38,7 @@ export default function Header() {
         <img
            src="/logo.png"
            alt="BridgeKey Homes Logo"
-           style={{ maxHeight: '80px', height: '100%', width: 'auto' }}
+           style={{ maxHeight: '120px', height: '100%', width: 'auto' }}
         />
 
         {/* Navigation Menu */}

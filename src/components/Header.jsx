@@ -30,7 +30,7 @@ export default function Header() {
         justifyContent: 'space-between',
         alignItems: 'center',
         padding: '0 2rem',
-        height: '100px', 
+        height: '140px', 
         overflow: 'hidden'
 }}>
 
@@ -38,7 +38,7 @@ export default function Header() {
         <img
            src="/logo.png"
            alt="BridgeKey Homes Logo"
-           style={{ maxHeight: '180px', height: '100%', width: 'auto' }}
+           style={{ maxHeight: '140px', height: '100%', width: 'auto' }}
         />
 
         {/* Navigation Menu */}

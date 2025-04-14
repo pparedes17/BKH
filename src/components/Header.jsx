@@ -6,8 +6,8 @@ export default function Header() {
     <header>
       {/* Top bar with phone */}
       <div style={{
-        backgroundColor: '#ffffff',
-        color: '#0D1B2A',
+        backgroundColor: '#AAB4C2',
+        color: 'white',
         fontSize: '0.9rem',
         padding: '0.4rem 1rem',
         textAlign: 'right'

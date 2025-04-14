@@ -5,15 +5,33 @@ export default function Header() {
   return (
     <header>
       {/* Top bar with phone */}
-      <div style={{
-        backgroundColor: '#AAB4C2', // #AAB4C2   #1B263B
-        color: '#0D1B2A',
-        fontSize: '0.9rem',
-        padding: '0.4rem 1rem',
-        textAlign: 'right'
-      }}>
-       <strong> "Beyond Traditional Solutions            " </strong> 📞<strong>602.582.8621</strong>
-      </div>
+      
+<div style={{
+  backgroundColor: '#AAB4C2',
+  color: '#0D1B2A',
+  fontSize: '0.9rem',
+  padding: '0.4rem 1rem',
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center'
+}}>
+  <div style={{ flex: 1, textAlign: 'center' }}>
+    <strong>Beyond Traditional Solutions</strong>
+  </div>
+  <div>
+    📞 <strong>602.582.8621</strong>
+  </div>
+</div>
+
+//<div style={{
+//        backgroundColor: '#AAB4C2', // #AAB4C2   #1B263B
+//        color: '#0D1B2A',
+//        fontSize: '0.9rem',
+//        padding: '0.4rem 1rem',
+//        textAlign: 'right'
+//      }}>
+//       <strong> Beyond Traditional Solutions   </strong> 📞<strong>602.582.8621</strong>
+//      </div>
 
       {/* Main nav bar */}
       <div style={{

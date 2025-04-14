@@ -1,3 +1,43 @@
+import Header from '../components/Header';
+
+// pages/index.jsx
+import Header from '../components/Header';
+
+export default function Home() {
+  return (
+    <>
+      <Header />
+
+      {/* HERO SECTION */}
+      <section style={{
+        backgroundColor: '#0D1B2A',
+        color: 'white',
+        padding: '5rem 2rem',
+        textAlign: 'center'
+      }}>
+        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>
+          Creative Real Estate Solutions That Work
+        </h1>
+        <p style={{ fontSize: '1.3rem', maxWidth: '600px', margin: '0 auto 2rem' }}>
+          We help homeowners sell their homes with flexible, win-win options—fast and hassle-free.
+        </p>
+        <button style={{
+          backgroundColor: '#E63946',
+          border: 'none',
+          padding: '0.8rem 1.5rem',
+          fontSize: '1rem',
+          color: 'white',
+          borderRadius: '5px',
+          cursor: 'pointer'
+        }}>
+          Sell Your Home Now
+        </button>
+      </section>
+    </>
+  );
+}
+
+
 export default function Home() {
   return (
     <div style={{ 

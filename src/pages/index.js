@@ -1,5 +1,3 @@
-import Header from '../components/Header';
-
 // pages/index.jsx
 import Header from '../components/Header';
 

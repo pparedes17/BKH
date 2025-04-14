@@ -23,16 +23,6 @@ export default function Header() {
   </div>
 </div>
 
-//<div style={{
-//        backgroundColor: '#AAB4C2', // #AAB4C2   #1B263B
-//        color: '#0D1B2A',
-//        fontSize: '0.9rem',
-//        padding: '0.4rem 1rem',
-//        textAlign: 'right'
-//      }}>
-//       <strong> Beyond Traditional Solutions   </strong> 📞<strong>602.582.8621</strong>
-//      </div>
-
       {/* Main nav bar */}
       <div style={{
         backgroundColor: '#0D1B2A',

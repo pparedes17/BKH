@@ -25,7 +25,7 @@ export default function Header() {
         borderBottom: '1px solid #ccc'
       }}>
         {/* Logo */}
-        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '70px' }} />
+        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '100px' }} />
 
         {/* Navigation Menu */}
         <nav>
@@ -36,15 +36,14 @@ export default function Header() {
             margin: 0,
             padding: 0,
             fontWeight: 'bold',
-            textTransform: 'uppercase',
-            color: 'white'
+            textTransform: 'uppercase'
           }}>
-            <li><Link href="/">Home</Link></li>
-            <li><Link href="/sell">Sell a Home</Link></li>
-            <li><Link href="/buy">Buy a Home</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
-            <li><Link href="/resources">Resources</Link></li>
-            <li><Link href="/about">About Us</Link></li>
+            <li><Link href="/" style={{ color: 'white', textDecoration: 'none' }} >Home</Link></li>
+            <li><Link href="/sell" style={{ color: 'white', textDecoration: 'none' }} >Sell a Home</Link></li>
+            <li><Link href="/buy" style={{ color: 'white', textDecoration: 'none' }} >Buy a Home</Link></li>
+            <li><Link href="/contact" style={{ color: 'white', textDecoration: 'none' }} >Contact</Link></li>
+            <li><Link href="/resources" style={{ color: 'white', textDecoration: 'none' }} >Resources</Link></li>
+            <li><Link href="/about" style={{ color: 'white', textDecoration: 'none' }} >About Us</Link></li>
           </ul>
         </nav>
       </div>

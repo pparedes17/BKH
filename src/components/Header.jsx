@@ -25,7 +25,7 @@ export default function Header() {
         borderBottom: '1px solid #ccc'
       }}>
         {/* Logo */}
-        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '50px' }} />
+        <img src="/logo.png" alt="BridgeKey Homes Logo" style={{ height: '70px' }} />
 
         {/* Navigation Menu */}
         <nav>
@@ -36,7 +36,8 @@ export default function Header() {
             margin: 0,
             padding: 0,
             fontWeight: 'bold',
-            textTransform: 'uppercase'
+            textTransform: 'uppercase',
+            color: 'white'
           }}>
             <li><Link href="/">Home</Link></li>
             <li><Link href="/sell">Sell a Home</Link></li>
